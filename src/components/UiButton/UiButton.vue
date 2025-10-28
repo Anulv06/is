@@ -24,18 +24,27 @@ const props = withDefaults(defineProps<IProps>(), {
   gap: 8px;
   align-items: center;
   justify-content: center;
-  height: 40px;
-  padding: 16px 32px;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: var(--color-white);
-  background: var(--color-primary);
-  border-radius: 16px;
+  height: 48px; 
+  padding: 12px 28px; 
+  font-size: 20px; 
+  font-weight: 600; 
+  line-height: 2;
+  color:  #040303ff;
+  background: linear-gradient(135deg, #eb24b6ff 0%, #db96cdff 100%); 
+  border: none; 
+  border-radius: 12px; 
+  cursor: pointer;
+  transition: all 0.3s ease; 
 
   &[data-layout='secondary'] {
-    color: var(--color-primary);
-    background-color: var(--color-transparent);
-    border-color: var(--color-primary);
+     color: #4098a2ff; 
+    background: transparent; 
+    border: 2px solid #2575fc; 
+    box-shadow: 0 4px 12px rgba(37, 117, 252, 0.1); 
+  }
+
+   &:hover {
+    transform: translateY(-3px); 
   }
 }
 </style>
