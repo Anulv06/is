@@ -10,4 +10,4 @@
 Полная настраиваемость
 
 Установка
-npm install @Anulv06/my-button-library-v2
+npm install @Anulv06/my-button-library-v3

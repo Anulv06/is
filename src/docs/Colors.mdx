@@ -1,38 +1,14 @@
-import { ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+---
+name: Цвета
+route: /colors
+---
 
-# Colors
+import { ColorPalette } from '@storybook/blocks';
 
-<ColorPalette>
+# Цвета
 
-<ColorItem
-  title='Primary'
-  colors={{
-    '--color-primary': '#006cbb',
-  }}
-/>
+Все цвета заданы через CSS-переменные.
 
-<ColorItem
-  title='Monochrome'
-  colors={{
-    '--color-white': '#ffffff',
-    '--color-gray-light': '#eeeeee',
-    '--color-gray': '#cccccc',
-    '--color-gray-dark': '#777777',
-    '--color-black': '#000000',
-  }}
-/>
+## Палитра
 
-<ColorItem
-  title='Success'
-  colors={{
-    '--color-success': '#01bd78',
-  }}
-/>
-
-<ColorItem
-    title='Error'
-    colors={{
-      '--color-error': '#d40019',
-    }}
-/>
-</ColorPalette>
+<ColorPalette />
