@@ -1,7 +1,7 @@
 {
- "name": "my-button-library-v3",
+ "name": "@anulv06/my-button-library-v3",
  "description": "Is components",
- "version": "1.0.3",
+ "version": "2.1.4",
  "license": "MIT",
  "type": "module",
  "main": "dist/index.js",
